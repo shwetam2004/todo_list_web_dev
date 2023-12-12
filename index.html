@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>To do List</h1>
+    <div class="input-container">
+      <input class="todo-input" placeholder="Add a new task...">
+      <button class="add-button">
+        <i class="fa fa-plus-circle"></i>
+      </button>
+    </div>
+
+    <div class="filters">
+      <div class="filter" data-filter="completed">Completed</div>
+      <div class="filter" data-filter="pending">Pending</div>
+      <div class="delete-all">Delete All</div>
+    </div>
+
+    <div class="todos-container">
+      <ul class="todos"></ul>
+      <img class="empty-image" src="https://static.vecteezy.com/system/resources/previews/002/859/247/non_2x/to-do-list-and-planning-checklist-young-smiling-woman-or-girl-cartoon-character-is-sitting-near-large-to-do-list-vector.jpg">
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
